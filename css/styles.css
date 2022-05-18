@@ -1,0 +1,737 @@
+html,body{
+    font-family: 'Poppins', sans-serif;
+}
+.purple-bg{
+    background: #484e9c;
+}
+.header .container{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.header .left-column{
+    padding-right: 2rem;
+}
+
+.header .right-column{
+    padding-left: 2rem;
+    color: #fff;
+}
+
+.logo{
+    width: 400px;
+    padding-bottom: 3.5rem;
+}
+
+.header__img{
+    width: 500px;
+}
+
+.header__title{
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.green-text{
+    color: #01e9c2;
+}
+
+.header__sign-up{
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.get-started__btn{
+    background: #01e9c2;
+    text-decoration: none;
+    color: #2c316e;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px 175px;
+    border-radius: 40px;
+}
+
+.get-started__btn:hover {
+    background: #00caa9;
+    color: #2c316e;
+}
+
+.cloud__migration{
+    background: #f2f4f7;
+}
+
+.cloud__migration .row{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.cloud__migration-title{
+    padding-bottom: 3rem;
+    font-weight: 700;
+    color: #2c316e;
+}
+
+.free__training-img{
+    width: 350px;
+}
+
+.cloud__migration .bold-text {
+    font-size: 1.4rem;
+    margin-bottom: 2rem ;
+}
+
+.cloud__migration p {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.btn-section{
+    margin-top: 10rem;
+}
+
+.cloud-migration__btn .get-started__btn{
+    padding: 20px 60px;
+}
+
+.features .row{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.features__title{
+    padding-bottom: 3rem;
+        font-weight: 700;
+        color: #2c316e;
+}
+
+.features .col-md-6 {
+   margin-bottom: 4rem;
+   padding-left: 25px;
+   padding-right: 25px;
+}
+
+.features img{
+    width: 600px;
+}
+
+.features .bold-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.features h1 {
+    color: #2c316e;
+}
+
+.features p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #2c316e;
+}
+
+.features h3{
+    color: #2c316e;
+}
+
+.features__btn{
+    margin-top: 4rem;
+}
+
+.features__btn .get-started__btn {
+    padding: 20px 60px;
+}
+
+.money__back{
+    background: #f2f4f7;
+}
+
+.money__back .row{
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+}
+
+.money__back-title{
+    padding-bottom: 3rem;
+}
+
+.money__back img{
+    width: 350px;
+}
+
+.money__back h1{
+    font-weight: 700;
+    color: #2c316e;
+}
+
+.money__back p {
+   font-size: 1.3rem;
+   margin-bottom: 2rem;
+}
+
+.footer .row{
+    padding-top: 6rem;
+        padding-bottom: 8rem;
+}
+
+.footer__btn{
+    
+    padding-bottom: 4rem;
+}
+
+.footer__btn .get-started__btn {
+    padding: 20px 60px;
+}
+
+.footer-text{
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.footer-text a{
+    color: #fff;
+    font-size: 1.3rem;
+   
+}
+
+.email-modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, .7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .4s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.email-modal--visible{
+    visibility: visible;
+    opacity: 1;
+}
+
+.email-modal__close-btn{
+    position: fixed;
+    top:5px; 
+    right: 5px;
+    padding: 5px;
+    cursor: pointer;
+    position: absolute;
+    background: #f2f4f7;
+    border-radius: 50%;
+}
+
+.email-modal__container{
+    background: #01e9c2;
+    max-width: 1000px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.email-modal__free-training{
+    width: 300px;
+}
+
+.email-modal__info{
+    padding: 40px 20px 40px 20px;
+    
+}
+
+.email-modal__message{
+    padding-left: 20px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.email-modal__form-group{
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+.email-modal__name{
+    width: 500px;
+    height: 60px;
+    padding: 5px 5px 5px 15px;
+    outline: none;
+    border: 2px solid #f2f4f7;
+    border-radius: 10px;
+    font-size: 1.3rem;
+}
+
+.email-modal__input{
+    width: 500px;
+        height: 60px;
+        padding: 5px 5px 5px 15px;
+        outline: none;
+        border: 2px solid #f2f4f7;
+        border-radius: 10px;
+        font-size: 1.3rem;
+}
+
+.email-modal__btn{
+    width: 500px;
+    padding: 20px;
+    background: #484e9c;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.email-modal__no-spam-message{
+    padding-top: 40px;
+}
+
+.email-modal__error-message {
+    color: #c71b1b;
+    font-weight: 500;
+    margin-top: 5px;
+    display: none;
+}
+
+.email-modal__error-message--active {
+   display: block;
+}
+
+.email-modal__input--error{
+    border: 2px solid #c71b1b;
+
+}
+
+@media only screen and (max-width: 1399px){
+.logo{
+    width: 350px;
+}
+.header__img{
+    width: 420px;
+}
+
+.get-started__btn{
+    padding: 20px 100px;
+}
+
+.features img{
+    width: 550px;
+}
+
+
+}
+
+@media only screen and (max-width: 1299px) {
+    .logo {
+        width: 300px;
+    }
+
+    .header__img {
+        width: 350px;
+    }
+
+    .get-started__btn {
+        padding: 20px 70px;
+    }
+
+    .features img {
+        width: 450px;
+    }
+
+
+}
+
+@media only screen and (max-width: 990px) {
+    .logo {
+        width: 280px;
+        padding-left: 30px;
+    }
+
+    .header__img {
+        width: 280px;
+        padding-left: 30px;
+    }
+
+    .header__title{
+        font-size: 2.5rem;
+    }
+
+    .get-started__btn {
+        padding: 20px 40px;
+        font-size: 1.3rem;
+    }
+
+    .free__training-img{
+        width: 260px;
+    }
+
+    .features img {
+        width: 330px;
+    }
+
+    .money__back img{
+        width: 280px;
+    }
+
+ .email-modal__free-training {
+         width: 250px;
+ }
+
+ .email-modal__name {
+     width: 440px;
+ }
+
+ .email-modal__input{
+    width: 440px;
+    }
+ }
+ .email-modal__btn{
+     width: 440px;
+ }
+
+ 
+
+
+
+
+@media only screen and (max-width: 767px) {
+    
+    .header .left-column{
+        text-align: center;
+    }
+    .header__img {
+       margin-bottom: 2rem;
+    }
+
+    .header__title {
+        font-size: 2.5rem;
+    }
+
+    .header__sign-up{
+        text-align: center;
+    }
+
+    .get-started__btn {
+        padding: 20px 40px;
+        font-size: 1.3rem;
+    }
+
+    .free__training-img {
+        margin-bottom: 2rem;
+    }
+
+    .cloud__migration .right-column{
+        text-align: center;
+    }
+
+    .cloud__migration .btn-section{
+        margin-top: 5rem;
+    }
+
+    .features .col-md-6{
+        text-align: center;
+    }
+
+    .features .col-md-12 {
+             text-align: center;
+         }
+
+    .features img {
+        width: 330px;
+    }
+
+    .money__back img {
+        margin-bottom: 2rem;
+    }
+
+        .money__back .col-md-7{
+           text-align: center;
+        }
+        .email-modal__info .row{
+            text-align: center !important;
+            padding-top: 20px;
+        }
+
+        .email-modal__free-training {
+    display: none;
+        }
+
+        .email-modal__message{
+            font-size: 1.5rem;
+        }
+
+.email-modal__name {
+    width: 440px;
+}
+
+.email-modal__input {
+    width: 440px;
+}
+
+
+.email-modal__btn {
+    width: 440px;
+}
+}
+
+@media screen and (max-width: 575px) {
+
+    .header .left-column {
+        text-align: center;
+    }
+
+    .header__img {
+        margin-bottom: 2rem;
+    }
+
+    .header__title {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .header__sign-up {
+        text-align: center;
+    }
+
+    .get-started__btn {
+        padding: 20px 40px;
+        font-size: 1.3rem;
+    }
+
+    .free__training-img {
+        margin-bottom: 2rem;
+    }
+
+    .cloud__migration .right-column {
+        text-align: center;
+    }
+
+    .cloud__migration .btn-section {
+        margin-top: 5rem;
+    }
+
+    .features .col-md-6 {
+        text-align: center;
+    }
+
+    .features .col-md-12 {
+        text-align: center;
+    }
+
+    .features img {
+        width: 330px;
+    }
+
+    .money__back img {
+        margin-bottom: 2rem;
+    }
+
+    .money__back .col-md-7 {
+        text-align: center;
+    }
+
+    .email-modal__close-btn{
+        top: 18px !important;
+        padding: 0px !important;
+       
+    }
+
+    .email-modal__message{
+        font-size: 1.3rem !important;
+    }
+
+        .email-modal__name {
+            width: 385px;     }
+    
+        .email-modal__input {
+            width: 385px;
+        }
+    
+    
+        .email-modal__btn {
+            width: 385px;
+        }
+
+}
+
+@media only screen and (max-width: 425px) {
+
+    .header .left-column {
+        text-align: center;
+    }
+
+    .logo{
+        width: 200px;
+    }
+
+    .header__img {
+        margin-bottom: 2rem;
+        width: 200px;
+    }
+
+    .header__title {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .header__sign-up {
+        text-align: center;
+    }
+
+    .get-started__btn {
+        padding: 20px 20px ;
+        font-size: 1.1rem;
+    }
+
+    .free__training-img {
+        margin-bottom: 2rem;
+    }
+
+    .cloud__migration .right-column {
+        text-align: center;
+    }
+
+    .cloud__migration .btn-section {
+        margin-top: 5rem;
+    }
+        .cloud-migration__btn .get-started__btn {
+            padding: 20px 40px;
+        }
+    .features .col-md-6 {
+        text-align: center;
+    }
+
+    .features .col-md-12 {
+        text-align: center;
+    }
+
+    .features img {
+        width: 330px;
+    }
+        .features__btn .get-started__btn {
+            padding: 20px 40px;
+        }
+
+    .money__back img {
+        margin-bottom: 2rem;
+    }
+
+    .money__back .col-md-7 {
+        text-align: center;
+    }
+
+        .footer__btn .get-started__btn {
+            padding: 20px 40px;
+        }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .header .left-column {
+            text-align: center;
+        }
+    
+        .logo {
+            width: 250px;
+        }
+    
+        .header__img {
+            margin-bottom: 2rem;
+            width: 250px;
+        }
+    
+        .header__title {
+            font-size: 2rem;
+            text-align: center;
+        }
+    
+        .header__sign-up {
+            text-align: center;
+        }
+    
+        .get-started__btn {
+            padding: 15px;
+            font-size: 1.1rem;
+        }
+    
+        .free__training-img {
+            margin-bottom: 2rem;
+        }
+    
+        .cloud__migration .right-column {
+            text-align: center;
+        }
+    
+        .cloud__migration .btn-section {
+            margin-top: 5rem;
+        }
+    
+        .cloud-migration__btn .get-started__btn {
+            padding: 20px;
+        }
+    
+        .features .col-md-6 {
+            text-align: center;
+        }
+    
+        .features .col-md-12 {
+            text-align: center;
+        }
+    
+        .features img {
+            width: 250px;
+        }
+    
+        .features__btn .get-started__btn {
+            padding: 20px;
+        }
+    
+        .money__back img {
+            margin-bottom: 2rem;
+            width: 250px;
+        }
+    
+        .money__back .col-md-7 {
+            text-align: center;
+        }
+    
+        .footer__btn .get-started__btn {
+            padding: 20px;
+        }
+        
+        .email-modal__info{
+            padding-top: 10px;
+        }
+        .email-modal__message{
+            font-size: 1rem !important;
+        }
+
+        .email-modal__close-btn{
+            top: 10px !important;
+        }
+
+        .close__btn{
+            width: 22px;
+            height: 22px;
+        }
+
+                  .email-modal__name {
+                      width: 260px;
+                      font-size: 1.1rem;
+                  }
+        
+                  .email-modal__input {
+                      width: 260px;
+                    font-size: 1.1rem;
+                  }
+        
+        
+                  .email-modal__btn {
+                      width: 260px;
+                  }
+
+}
